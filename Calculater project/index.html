@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stylish Calculator with History</title>
+  <link rel="stylesheet" href="styles.css">  <!-- Linking CSS -->
+</head>
+<body>
+  <div class="calculator">
+    <div id="display" class="display">0</div>
+    
+    <!-- History Display Section -->
+    <div id="history" class="history"></div>  <!-- Added History -->
+
+    <div class="buttons">
+      <button class="btn operator" value="C" id="clear">C</button>
+      <button class="btn operator" value="/" id="divide">÷</button>
+      <button class="btn operator" value="*" id="multiply">×</button>
+      <button class="btn operator" value="-" id="subtract">-</button>
+      
+      <button class="btn" value="7">7</button>
+      <button class="btn" value="8">8</button>
+      <button class="btn" value="9">9</button>
+      <button class="btn operator" value="+" id="add">+</button>
+      
+      <button class="btn" value="4">4</button>
+      <button class="btn" value="5">5</button>
+      <button class="btn" value="6">6</button>
+      <button class="btn operator" value="()">()</button>
+      
+      
+      <button class="btn" value="1">1</button>
+      <button class="btn" value="2">2</button>
+      <button class="btn" value="3">3</button>
+      <button class="btn equal" id="equal">=</button>
+      
+      <button class="btn" value="0" id="zero">0</button>
+      <button class="btn" value=".">.</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>  <!-- Linking JavaScript -->
+</body>
+</html>
